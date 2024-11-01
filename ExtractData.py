@@ -34,7 +34,8 @@ def map_number(value):
 
 
 # Load and read the csv file
-path = "Project_2\\Project_2_Intro_To_ML_02450\\Data\\car_data_with_country.csv"
+# path = "Project_2\\Project_2_Intro_To_ML_02450\\Data\\car_data_with_country.csv"
+path = "Data\\car_data_with_country.csv" # Path for jupyter notebook
 df = pd.read_csv(path)
 
 # Extract raw_data and rows and columns
